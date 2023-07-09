@@ -1,0 +1,18 @@
+h1{
+    color:purple;
+}
+
+section>h2{
+    color:blue;
+}
+
+
+article>h2{
+    color:red; //*if you put !important in this propoerty this will have 1000 line specificity and h2's will be red*/
+}
+
+section>article>h2{
+    color:orange;
+}
+
+/* you will only use !important if you have a client project and you need to rush to show the specificity of a certain proporty but you need to make it right after*/
